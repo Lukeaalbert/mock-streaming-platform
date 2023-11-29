@@ -15,3 +15,6 @@ SEARCH:            4 <* | string> <br />
 WATCH:             5 <content-id> <br />
 REVIEW:            6 <content-id> <number-of-stars> <br />
 SUGGEST SIMILAR:   7 <content-id> <br />
+
+<b> content </b>
+content.h and content.cpp include the Content class, as well as the Series and Movie child classes. content.cpp impliments these classes. 
