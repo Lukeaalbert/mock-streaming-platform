@@ -6,6 +6,7 @@ The service has <b> content (movies and series) </b> that can be watched by <b> 
 In short, the user inputs a file with streaming data, and a Json parser (found in jsonparser.h and jsonparser.cpp) parses the data
 and creates content and user objects for the streaming platform. The user navigates the platform with the menu (shown below)
 
+------------------------------------------
 
 QUIT:              0
 LOGIN:             1 uname
@@ -15,3 +16,5 @@ SEARCH:            4 <* | string>
 WATCH:             5 <content-id>
 REVIEW:            6 <content-id> <number-of-stars>
 SUGGEST SIMILAR:   7 <content-id>
+
+------------------------------------------
