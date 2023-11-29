@@ -16,5 +16,3 @@ WATCH:             5 <content-id>
 REVIEW:            6 <content-id> <number-of-stars>
 SUGGEST SIMILAR:   7 <content-id>
 ===================================================
-
-
