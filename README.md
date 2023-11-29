@@ -8,13 +8,13 @@ and creates content and user objects for the streaming platform. The user naviga
 
 ------------------------------------------
 
-QUIT:              0
-LOGIN:             1 uname
-LOGOUT:            2
-GET USER HISTORY:  3
-SEARCH:            4 <* | string>
-WATCH:             5 <content-id>
-REVIEW:            6 <content-id> <number-of-stars>
-SUGGEST SIMILAR:   7 <content-id>
+QUIT:              0 <br />
+LOGIN:             1 uname <br />
+LOGOUT:            2 <br />
+GET USER HISTORY:  3 <br />
+SEARCH:            4 <* | string> <br />
+WATCH:             5 <content-id> <br />
+REVIEW:            6 <content-id> <number-of-stars> <br />
+SUGGEST SIMILAR:   7 <content-id> <br />
 
 ------------------------------------------
