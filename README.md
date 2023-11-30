@@ -5,7 +5,7 @@ inheritance, I/O streams/gathering data from files, writing programs across many
 In short, the user inputs a file with streaming data, and a JSON parser (found in jsonparser.h and jsonparser.cpp) parses the data
 and creates content and user objects for the streaming platform (service). The main idea is that the <b> streaming service </b> has <b> content (movies and series) </b> that can be watched by <b> users </b>. The user navigates the platform with the menu (shown below).
 
-
+//======================================================================
 QUIT:              0 <br />
 LOGIN:             1 uname <br />
 LOGOUT:            2 <br />
@@ -14,6 +14,7 @@ SEARCH:            4 <* | string> <br />
 WATCH:             5 <content-id> <br />
 REVIEW:            6 <content-id> <number-of-stars> <br />
 SUGGEST SIMILAR:   7 <content-id> <br />
+//======================================================================
 
 <b> content </b> <br />
 content.h includes the Content class, as well as the Series and Movie child classes. content.cpp includes the implementation for these classes. <br />
