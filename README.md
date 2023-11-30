@@ -16,5 +16,20 @@ WATCH:             5 <content-id> <br />
 REVIEW:            6 <content-id> <number-of-stars> <br />
 SUGGEST SIMILAR:   7 <content-id> <br />
 
-<b> content </b>
-content.h and content.cpp include the Content class, as well as the Series and Movie child classes. content.cpp impliments these classes. 
+<b> content </b> <br />
+content.h includes the Content class, as well as the Series and Movie child classes. content.cpp includes the implementation for these classes. <br /> <br />
+
+<b> user </b> <br />
+user.h includes the User class, and jsonparser.cpp includes the user class implementation. <br /> <br />
+
+<b> strmsrv </b> <br />
+strmsrv.h includes the Strmsrv class, which holds vectors of content and users as private data members. strmsrv.cpp includes the implementation for this classes. These implementation serve as the main logic for menu commands. <br /> <br />
+
+<b> jsonparser </b> <br />
+jsonparser.h includes the Jsonparser class, and jsonparser.cpp includes the unique json parser implementation for data input. <br /> <br />
+
+<b> dataExp </b> <br />
+dataExp.json is sample input. <br /> <br />
+
+<b> mainStream </b> <br />
+mainStream.cpp has the main() function and implement the main logic of running this program. <br /> <br />
