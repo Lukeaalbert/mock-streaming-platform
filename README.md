@@ -33,3 +33,5 @@ dataExp.json is sample input. <br /> <br />
 
 <b> mainStream </b> <br />
 mainStream.cpp has the main() function and implement the main logic of running this program. <br /> <br />
+
+For more information, please see the various files. Especially the header files. Information on specific methods and implementations can be found there. Thanks!
