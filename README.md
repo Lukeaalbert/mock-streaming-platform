@@ -4,7 +4,7 @@ inheritance, I/O streams/gathering data from input files, working across many fi
 The service has <b> content (movies and series) </b> that can be watched by <b> users </b>.
 
 In short, the user inputs a file with streaming data, and a Json parser (found in jsonparser.h and jsonparser.cpp) parses the data
-and creates content and user objects for the streaming platform. The user navigates the platform with the menu (shown below)
+and creates content and user objects for the streaming platform (service). The main idea is that the <b> streaming service </b> has <b> content (movies and series) </b> that can be watched by <b> users </b>. The user navigates the platform with the menu (shown below).
 
 
 QUIT:              0 <br />
