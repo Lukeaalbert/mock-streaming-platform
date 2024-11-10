@@ -1,4 +1,4 @@
-# streaming-project
+# streaming project
 My streaming project is a mock streaming platform written in C++ that demonstrates my knowledge of object-oriented programming, 
 inheritance, I/O streams/gathering data from files, writing programs across many files, and a general holistic understanding of C++ programming.
 
